@@ -1,30 +1,58 @@
-# 🚗 BD-Concessionária
+# 🚗 BD-Concessionária — Banco de Dados de Veículos
 
-Repositório dedicado à modelagem, criação e manipulação de um banco de dados relacional para o gerenciamento de uma concessionária de veículos. 
+Projeto de banco de dados relacional com um exemplo de gerenciamento de veículos e vendedores por meio de comandos SQL.
 
-Este projeto aborda desde a modelagem conceitual até a implementação dos scripts SQL para estruturação e consulta dos dados.
+## 📖 Sobre o projeto
 
-## 📋 Funcionalidades
+O **BD-Concessionária** contém um script SQL que cria o banco de dados `db_loja`, define tabelas para carros e vendedores e inclui exemplos de inserção, atualização e consulta de dados.
 
-O banco de dados foi projetado para suportar as seguintes operações principais:
-* **Gestão de Veículos:** Cadastro de carros, motos, marcas, modelos, anos de fabricação e controle de estoque.
-* **Gestão de Clientes:** Registro de dados dos compradores para histórico e contato.
-* **Gestão de Vendas:** Controle de transações, vinculando clientes, veículos, vendedores e valores.
-* **Gestão de Funcionários:** Cadastro de vendedores, mecânicos e gerentes da concessionária.
-* **Ordem de Serviço (Opcional):** Controle de manutenções e revisões na oficina da concessionária.
+## ✨ Funcionalidades
 
-## 💻 Tecnologias Utilizadas
+- 🚘 Criação da tabela de carros.
+- 👥 Criação da tabela de vendedores.
+- 🔗 Relacionamento entre vendedores e veículos por chave estrangeira.
+- 🧾 Inserção de registros de exemplo.
+- ✏️ Atualização de informações dos veículos.
+- 🔍 Consultas para visualizar os dados das tabelas.
 
-* **Linguagem:** SQL
-* **SGBD:** MySQL / PostgreSQL / SQL Server *(Altere para o sistema que você utilizou)*
-* **Modelagem:** BRModelo / MySQL Workbench / Draw.io *(Altere para a ferramenta de diagrama utilizada)*
+## 🛠️ Tecnologias utilizadas
 
-## 📂 Estrutura do Projeto
+- **SQL:** criação e manipulação de dados relacionais.
+- **SGBD:** use o sistema compatível com a sintaxe SQL adotada no arquivo.
+
+## 📂 Estrutura do projeto
 
 ```text
-├── modelagem/           # Diagramas Entidade-Relacionamento (DER) e Modelos Lógicos
-├── sql/
-│   ├── 01_ddl.sql       # Scripts de criação (CREATE TABLE, ALTER TABLE)
-│   ├── 02_dml.sql       # Scripts de inserção de dados (INSERT)
-│   └── 03_dql.sql       # Scripts de consultas e relatórios (SELECT, JOIN, VIEWS)
-└── README.md            # Documentação do projeto
+BD-Concessionaria/
+├── Concessionaria.sql
+└── README.md
+```
+
+## 🚀 Como executar o projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/yhaguihara/BD-Concessionaria.git
+   ```
+2. Entre na pasta:
+   ```bash
+   cd BD-Concessionaria
+   ```
+3. Abra `Concessionaria.sql` em sua ferramenta de banco de dados e revise o script antes de executá-lo.
+
+**Atenção:** o script cria um banco de dados e tabelas. Execute-o em um ambiente de teste para evitar alterações em dados importantes.
+
+## 🎯 Objetivo de aprendizagem
+
+Praticar comandos SQL, criação de tabelas, chaves primárias e estrangeiras, inserção, atualização e consulta de dados.
+
+## 👨‍💻 Autor
+
+**Yuri Haguihara**
+
+- GitHub: [@yhaguihara](https://github.com/yhaguihara)
+- Repositório: [BD-Concessionaria](https://github.com/yhaguihara/BD-Concessionaria)
+
+---
+
+⭐ Se você gostou do projeto, deixe uma estrela no repositório!
